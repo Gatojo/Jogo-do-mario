@@ -19,7 +19,7 @@
     
 }
 .jump {
-    animation: jump-mario 500ms ease-in-out;
+    animation: jump 500ms ease-in-out;
 }
 
 .pipe{

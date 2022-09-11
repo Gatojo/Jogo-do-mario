@@ -1,11 +1,12 @@
 const mario = document.querySelector('.mario');
 
 const jump = () => {
+    console.log("entrou na funçao")
     mario.classList.add('jump');
     
     setTimeout(() => {
 
-        mario.Classlist.remove('jump');   
+        mario.classList.remove('jump');   
 
     } , 500);
 
